@@ -2,6 +2,7 @@ import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 import api from "../../services/api";
 import React, { useState, useEffect } from "react";
 import base64 from "base-64";
+import axios from "axios";
 import "./Home.css";
 import Header from "../../components/Header/Header";
 
@@ -117,11 +118,32 @@ function Home() {
   }
 
   useEffect(() => {
-    api.get("/login", {
+    config:{
+
+    }
+    axios.get("/mostrar", {
       headers: {
         Authorization: `Basic ${base64.encode("thiago.costa@cattaliniterminais.com.br" + ":" + "12345678")}`,
+        'Access-Control-Allow-Origin':'*',
+        'Content-Type': 'multipart/form-data',
       },
-    });
+    }).then(response => {
+       
+      const arr = response.data as Array<Object>
+
+
+      arr.map((pipeline, index) => {
+        
+      // if(pipeline.hasOwnProperty("CLIENTE")){
+       // console.log(pipeline[""])
+      // }
+        // const pipelineObject:Pipeline
+      })
+    }
+
+    ).catch(
+      
+    )
     // api
     //   .get("/tasks", {})
     //   .then((response) => {
