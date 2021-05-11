@@ -1,0 +1,50 @@
+.btn-login{
+
+}
+
+.cabecalho{
+  display: flex;
+  align-items: center;
+  background: var(--header);
+  padding: 11px 16px;
+  background-color: #10244f;
+  margin-bottom: 25px;
+  height: 50px;
+}
+
+.titulo{
+  padding: 13px 16px;
+  margin-left: 5px;
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 0.5em;  
+  padding: 0.5em;
+  padding-right: 0;
+  /* font-size: 0.9em; */
+  font-size:20px;
+}
+
+.login{
+    align-items: center;
+    align-content: center;
+}
+.email{
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;  
+}
+
+.senha{
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px; 
+}
+
+.div-bt{
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px; 
+}
+/* .logo{
+  padding: 11px 16px;
+} */
