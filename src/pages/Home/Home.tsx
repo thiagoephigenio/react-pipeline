@@ -189,7 +189,7 @@ function Home() {
         <div className="actions">
           {pipelineEditableId !== 0 ? (
             <>
-              <button
+              <button className="bt-novo"
                 onClick={() => {
                   handleCrateNewForm();
                   handleRemoveEditablePipeline();

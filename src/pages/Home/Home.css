@@ -1,7 +1,15 @@
+body{
+  background-color: rgb(224, 224, 224);
+}
 button {
   height: 1.8rem;
   width: 5rem;
-  margin-left: 5px;
+  margin-left: 16px;
+  cursor: pointer;  
+  background-color: white;
+  color: rgb(65, 64, 64);
+  font-size: 15px; 
+  border-radius: 2px;
 }
 .actions {
   display: flex;
@@ -104,7 +112,7 @@ table > tbody > tr:hover {
 /*alinhartabelas */
 
 .cliente{
-  border-left: 120px solid transparent; 
+  border-left: 105px solid transparent; 
 }
 
 .projeto{
@@ -116,31 +124,64 @@ table > tbody > tr:hover {
 }
 
 .volume{
-  border-left: 12px solid transparent;
+  border-left: 3px solid transparent;
   border-right: 12px solid transparent;
 }
 
 .dataAbert{
-  border-left: 12px solid transparent;
+  border-left: 2px solid transparent;
 }
 .dataInicio{
-  border-left: 10px solid transparent;
+  border-left: 5px solid transparent;
 }
 
-.probabilidade{
-  /* border-right: 19px solid transparent; */
-}
 
 .situacao{
   /* border-right: 50px solid transparent; */
-  border-left: 0px;
+  border-left: 15px;
 }
 .dataEnc{
-  border-left: 0px solid transparent;
+  border-left: 15px solid transparent;
 } 
 .impacto{
   border-right: 20px solid transparent;
 }
 .mudanca{
-  border-right: 32px solid transparent;
+  border-right: 35px solid transparent;
+}
+.tempo{
+  border-left: 10px solid transparent;
+}
+.td-cliente{
+  border-left: 15px solid transparent;
+}
+.td-volume{
+  border-left: 5px solid transparent;
+}
+.td-probabilidade{
+  border-left: 35px solid transparent;
+}
+.td-prazo{
+  border-left: 25px solid transparent;
+}
+.td-situacao{
+  border-left: 25px solid transparent;
+}
+.td-dataEnc{
+  border-left: 10px solid transparent;
+}
+.td-dataInicio{
+  border-left: 10px solid transparent;
+}
+.td-dataAbert{
+  border-left: 5px solid transparent;
+}
+.td-tempo{
+  border-left: 25px solid transparent;
+}
+.td-mudanca{
+  border-left: 20px solid transparent;
+}
+.td-impacto{
+  border-left: 20px solid transparent;
 }
