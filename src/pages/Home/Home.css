@@ -100,3 +100,47 @@ table > tbody > tr > td > input {
 table > tbody > tr:hover {
   background-color: #0000000a;
 }
+
+/*alinhartabelas */
+
+.cliente{
+  border-left: 120px solid transparent; 
+}
+
+.projeto{
+  border-left: 42px solid transparent;
+}
+
+.valor{
+  border-left: 15px solid transparent;
+}
+
+.volume{
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+.dataAbert{
+  border-left: 12px solid transparent;
+}
+.dataInicio{
+  border-left: 10px solid transparent;
+}
+
+.probabilidade{
+  /* border-right: 19px solid transparent; */
+}
+
+.situacao{
+  /* border-right: 50px solid transparent; */
+  border-left: 0px;
+}
+.dataEnc{
+  border-left: 0px solid transparent;
+} 
+.impacto{
+  border-right: 20px solid transparent;
+}
+.mudanca{
+  border-right: 32px solid transparent;
+}

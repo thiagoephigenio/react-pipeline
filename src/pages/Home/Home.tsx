@@ -238,22 +238,22 @@ function Home() {
             <tr>
               <th></th>
               <th></th>
-              <th>Cliente</th>
-              <th>Projeto</th>
-              <th>Valor/m³</th>
-              <th>Volume (m³/mês)</th>
-              <th>Data Abertura</th>
-              <th>Data Início Operação</th>
-              <th>Prazo do Contrato</th>
-              <th>Probabilidade</th>
-              <th>Situação</th>
-              <th>Data Encerramento</th>
-              <th>Tempo(meses)</th>
-              <th>Receita Estimada</th>
-              <th>Receita Esperada</th>
-              <th>Impacto</th>
-              <th>Duração</th>
-              <th>Mudança de Status</th>
+              <th className="cliente">Cliente</th>
+              <th className="projeto">Projeto</th>
+              <th className="valor">Valor/m³</th>
+              <th className="volume">Volume (m³/mês)</th>
+              <th className="dataAbert">   Data Abertura</th>
+              <th className="dataInicio">Data Início Operação</th>
+              <th className="prazo">Prazo     do Contrato</th>
+              <th className="probabilidade">Probabilidade</th>
+              <th className="situacao">Situação</th>
+              <th className="dataEnc">Data Término</th>
+              <th className="tempo">Tempo        (meses)</th>
+              <th className="receitaest">Receita Estimada</th>
+              <th className="receitaesp">Receita Esperada</th>
+              <th className="impacto">Impacto</th>
+              <th className="duracao">Duração</th>
+              <th className="mudanca">Mudança de Status</th>
             </tr>
           </thead>
           <tbody>
@@ -336,7 +336,7 @@ function Home() {
                     </h2>
                   </span>
                 </td>
-                <td>
+                <td className="td-cliente">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineClient}
@@ -346,7 +346,7 @@ function Home() {
                     pipeline.client
                   )}
                 </td>
-                <td>
+                <td className="td-projeto">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineProject}
@@ -356,7 +356,7 @@ function Home() {
                     pipeline.project
                   )}
                 </td>
-                <td>
+                <td className="td-valor">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineBulk}
@@ -368,7 +368,7 @@ function Home() {
                     pipeline.bulk
                   )}
                 </td>
-                <td>
+                <td className="td-volume">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineValue}
@@ -380,7 +380,7 @@ function Home() {
                     pipeline.value
                   )}
                 </td>
-                <td>
+                <td className="td-dataAbert">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       type="date"
@@ -392,7 +392,7 @@ function Home() {
                     pipeline.dateOpened
                   )}
                 </td>
-                <td>
+                <td className="td-dataInicio">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       defaultValue={newPipelineDateOperationStart}
@@ -405,7 +405,7 @@ function Home() {
                     pipeline.dateOperationStart
                   )}
                 </td>
-                <td>
+                <td className="td-prazo">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineContractDeadline}
@@ -417,7 +417,7 @@ function Home() {
                     pipeline.contractDeadline
                   )}
                 </td>
-                <td>
+                <td className="td-probabilidade">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineProbability}
@@ -429,7 +429,7 @@ function Home() {
                     pipeline.probability
                   )}
                 </td>
-                <td>
+                <td className="td-situacao">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineSituation}
@@ -439,7 +439,7 @@ function Home() {
                     pipeline.situation
                   )}
                 </td>
-                <td>
+                <td className="td-dataEnc">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       type="date"
@@ -452,7 +452,7 @@ function Home() {
                     pipeline.dateClousure
                   )}
                 </td>
-                <td>
+                <td className="td-tempo">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineTime}
@@ -464,7 +464,7 @@ function Home() {
                     pipeline.time
                   )}
                 </td>
-                <td>
+                <td className="td-receitaEst">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineEstimatedRevenue}
@@ -478,7 +478,7 @@ function Home() {
                     pipeline.estimatedRevenue
                   )}
                 </td>
-                <td>
+                <td className="td-receitaEsp">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineExpectedRevenue}
@@ -492,7 +492,7 @@ function Home() {
                     pipeline.expectedRevenue
                   )}
                 </td>
-                <td>
+                <td className="td-impacto">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineImpact}
@@ -504,7 +504,7 @@ function Home() {
                     pipeline.impact
                   )}
                 </td>
-                <td>
+                <td className="td-duracao">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineDuration}
@@ -514,7 +514,7 @@ function Home() {
                     pipeline.duration
                   )}
                 </td>
-                <td>
+                <td className="td-mudanca">
                   {pipelineEditableId === pipeline.id ? (
                     <input
                       value={newPipelineStatusChange}

@@ -1,0 +1,30 @@
+.inicio{
+    display: flex;
+    align-items: center;
+    background: var(--header);
+    padding: 11px 16px;
+    background-color: #10244f;
+    margin-bottom: 20px;
+    height: 50px;
+  
+  }
+  .titulo{
+    padding: 13px 16px;
+    margin-left: 5px;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 0.5em;  
+    padding: 0.5em;
+    padding-right: 0;
+    /* font-size: 0.9em; */
+    font-size:20px;
+  }
+  .fechamento{
+    width: 900px;
+    min-height: 600px;    
+    margin: 0px auto;
+    position: relative;  
+    border-radius: 2px;
+    background-color:white;
+    transition: all 0.2s linear;
+  }
