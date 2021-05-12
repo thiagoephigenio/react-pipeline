@@ -41,40 +41,50 @@ class Login extends Component {
       <>
         <form onSubmit={this.handleLogin}>
           {this.state.error && <p>{this.state.error}</p>}
+        
         <div className="cabecalho">
         {/* <img className="logo" src="images/logo.png"> </img> */}
         <h4 className="titulo"> Pipeline </h4>
         </div>
-        <div className="login">
 
-        </div>
+        <div className="content">
+        {/*  formulario login */}
+        <h1 className="tituloLogin">  Login </h1>
+        <hr className="risco"/>        
         <div className="email">
+        <p> 
+            <label className="seuEmail">E-mail</label>
           <input
             type="email"
             className="inpt-login"
             autoComplete="email"
-            placeholder="Endereço de e-mail"
+            placeholder="exemplo@exemplo.com.br"
             onChange={(e) => this.setState({ email: e.target.value })}
           />
+          </p>
         </div>
         <div className="senha">
+        <p> 
+            <label className="suaSenha">Senha</label>
           <input
             type="password"
             className="inpt-login"
             autoComplete="current-password"
-            placeholder="Senha"
+            placeholder="********"
             onChange={(e) => this.setState({ password: e.target.value })}
           />
+          </p>
         </div>
 
         <div className="div-bt">
           <button type="submit" className="btn-login">Entrar</button>
-          <hr />
+         {/* <hr />*/}
           </div>
-          
+          </div>
         </form>
+       
       </>
-      
+     
     );
   }
 }
