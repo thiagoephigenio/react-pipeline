@@ -12,7 +12,7 @@
     padding: 13px 16px;
     margin-left: 5px;
     color: aliceblue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
     margin-left: 0.5em;  
     padding: 0.5em;
     padding-right: 0;
@@ -20,11 +20,181 @@
     font-size:20px;
   }
   .fechamento{
-    width: 900px;
-    min-height: 600px;    
-    margin: 0px auto;
-    position: relative;  
+    /* width: 1100px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 20px;    
     border-radius: 2px;
-    background-color:white;
-    transition: all 0.2s linear;
+    background-color:rgb(241, 241, 241);
   }
+  .tituloFech{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+  }
+  ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.card-view {
+  display: block;
+  background-color: #ececec;
+  border: 2px;
+  border-radius: 3px;
+  box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 20%);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+folha de estilos de agente de usuário
+div {
+  display: block;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  text-align: left;
+  background-color: rgb(245, 245, 245);
+
+  ;
+}
+.content-card-view {
+  color: rgb(102, 101, 101);
+  display: block;
+  flex-direction: column;
+
+}
+
+.btn-card-detalhes{
+  color: #fff;
+  background-color: #3490dc;
+  border-color: #3490dc;
+  display: inline;
+  margin-top: 8px;
+  height: 2.3em;
+  width: 10em;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.btn-card-resumo{
+  color: #fff;
+  background-color: #3490dc;
+  border-color: #3490dc;
+  display: inline;
+  margin-top: 8px;
+  height: 2.3em;
+  width: 10em;
+  border-radius: 5px;
+  margin-left: 5px;
+
+
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-body{
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.select{
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+  word-wrap: normal;
+}
+
+label{
+  display: inline-block;
+  margin-left: 37px;
+  margin-right: 5px;
+}
+.registros{
+  margin-left: 5px;
+}
+.dataTables_filter{
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+  margin-left: 3px;
+}
+.table-responsive {
+  padding: 3px;
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+    
+}
+.dataTables_length {
+  float: left;
+}
+.dataTables_filter {
+  float: right;
+  text-align: right;
+}
+.dataTables_filter input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+  margin-left: 3px;
+}
+.card-view2 {
+  display: block;
+  background-color: #ececec;
+  border: 2px;
+  border-radius: 3px;
+  box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 20%);
+ width: 200px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

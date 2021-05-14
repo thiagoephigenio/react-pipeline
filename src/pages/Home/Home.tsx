@@ -235,7 +235,7 @@ function Home() {
       <div>
         <table>
           <thead>
-            <tr>
+            <tr className="linha">
               <th></th>
               <th></th>
               <th className="cliente">Cliente</th>
