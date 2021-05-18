@@ -27,7 +27,7 @@ return (
       <i className="tituloFech">Histórico de Fechamentos</i>
     </div>
 
-    <div className="card-view2">
+    <div className="card-header2">
       <label>  
       Mostrar  
       </label> 
@@ -40,6 +40,38 @@ return (
       <label className="registros">
           registros.
       </label>
+     <label className="buscar">
+      Buscar:</label>
+	<input className="busca" type="text" /> 
+  
+  </div>
+  <div className="card-header">
+    <tr>
+        <td className="td-data">  Data    </td>
+        <td className="td-ref">  Referência   </td>
+        <td className="td-situacao">  Situação    </td>
+    </tr>
+  </div>
+  <div className="card-view-tab1">
+    <tr>
+        <td className="td-data"> 01-02-2021 </td>
+        <td className="td-ref"> 12/21 </td>
+        <td className="td-situacao"> PROCESSADO </td>
+    </tr>
+    </div>
+    <div className="card-view-tab2">
+    <tr>
+        <td className="td-data"> 01-02-2021 </td>
+        <td className="td-ref"> 12/21 </td>
+        <td className="td-situacao"> PROCESSADO </td>
+    </tr>
+    </div>
+    <div className="card-view-tab3">
+    <tr>
+        <td className="td-data"> 01-02-2021 </td>
+        <td className="td-ref"> 12/21 </td>
+        <td className="td-situacao"> CANCELADO </td>
+    </tr>
     </div>
     
   </>

@@ -187,14 +187,49 @@ label{
   background-color: transparent;
   margin-left: 3px;
 }
-.card-view2 {
+.card-header2 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.busca{
+ width: min-content;
+}
+.buscar{
+  margin-left: 800px;
+}
+.td-data{
+  border-left: 15px solid transparent;
+  border-right: 35px solid transparent;
+  margin-left: 15px;
+}
+.td-ref{
+  border-left: 100px solid transparent;
+}
+.td-situacao{
+  border-left: 100px solid transparent;
+}
+.card-view-tab1, .card-view-tab3{
+  display: block;
+  background-color: #bebebe;
+  border: 2px;
+  border-radius: 3px;
+  box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 20%);
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card-view-tab2{
   display: block;
   background-color: #ececec;
   border: 2px;
   border-radius: 3px;
   box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 20%);
- width: 200px;
-  margin-bottom: 10px;
+  padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }

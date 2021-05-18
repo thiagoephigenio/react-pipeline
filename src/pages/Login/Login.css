@@ -31,6 +31,7 @@
   background-color:white;
   transition: all 0.2s linear;
   margin-top: 50px;
+  box-shadow: 1px 3px 5px 1px rgb(0 0 0 / 20%);
 }
 
 .tituloLogin{
@@ -68,7 +69,22 @@ p{
   position: relative;
 }
 
-input:not([type="checkbox"]){
+/* input:not([type="checkbox"]){
+  width: 95%;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+ 
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+ 
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+ 
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+} */
+.inpt-login{
   width: 95%;
   margin-top: 4px;
   padding: 10px;    
@@ -83,7 +99,6 @@ input:not([type="checkbox"]){
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
- 
 
  
 /*estilo do botão submit no hover */
