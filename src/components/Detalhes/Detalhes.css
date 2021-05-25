@@ -1,0 +1,18 @@
+.linha2{
+    background-color: rgb(46, 46, 46);
+}
+
+.cliente-detalhes,.projetos-detalhes, .valor-detalhes, .volume-detalhes, .dataAbert-detalhes, .dataInicio-detalhes, .prazo-detalhes, .probabilidade-detalhes, .situacao-detalhes,.dataEnc-detalhes-detalhes, .tempo-detalhes, .receitaest-detalhes, .receitaesp-detalhes, .impacto-detalhes, .duracao-detalhes, .mudanca-detalhes {
+    color: white;
+    border-left: 2px solid transparent;
+    width: auto;
+}
+
+.cliente-detalhes{
+    border-left: 10px solid transparent;
+    border-right: 22px solid transparent;
+}
+
+.dataInicio-detalhes, .projetos-detalhes, .valor-detalhes, .volume-detalhes, .dataAbert-detalhes, .prazo-detalhes, .probabilidade-detalhes, .situacao-detalhes, .dataEnc-detalhes-detalhes, .tempo-detalhes, .receitaest-detalhes, .receitaesp-detalhes, .impacto-detalhes, .duracao-detalhes, .mudanca-detalhes  {
+    border-right: 22px solid transparent;
+}
